@@ -1,0 +1,55 @@
+/* .k2{
+  background-image: url("./lib.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  left: 0%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+} */
+.login-page{
+  background-image: url("https://cdn.pixabay.com/photo/2018/11/28/16/44/newspaper-3844071_1280.jpg");
+  background-size: cover;
+  height: 89.9vh;
+  padding-top: 70px;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  width:fit-content ;
+  text-align: center;
+  padding: 30px;
+  margin-left: 40%;
+  /*background-color: #d9d1d1;*/
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 4px 4px 4px #060606;
+  opacity: 0.8;
+}
+.loginform{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.loginform input{
+  margin: 20px;
+  padding: 7px;
+  border-radius: 2em;
+}
+.loginform button{
+  width:fit-content;
+  margin-left: 80px ;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  border-radius: 2em;
+  background-color: black;
+  color: white;
+}
+
+.loginform button:hover{
+  background-color:rgb(185, 177, 177);
+  color: black;
+}
